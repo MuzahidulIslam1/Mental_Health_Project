@@ -32,7 +32,10 @@ def create_app():
 
     return app
 
+
 if __name__ == "__main__":
-    app = create_app()
-    logger.info("Starting Flask app on http://127.0.0.1:5000")
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    # ✅ Bind to 0.0.0.0 so Render can access it
+    print(f"Starting Flask app on 0.0.0.0:{port}")
+    app.run(host="0.0.0.0", port=port, debug=True)
