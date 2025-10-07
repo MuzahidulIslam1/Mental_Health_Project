@@ -31,6 +31,9 @@ def create_app():
         return render_template("index.html")
 
     return app
+# Create the Flask app instance for Gunicorn
+app = create_app()
+
 
 if __name__ == "__main__":
     app.run(debug=True)
