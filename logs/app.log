@@ -1,0 +1,71 @@
+2025-10-07 12:03:14 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:03:15 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:05:20 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:05:30 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:05:31 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:05:47 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:06:23 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:07:55 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:07:56 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:08:17 | INFO     | app: Received POST request for prediction.
+2025-10-07 12:08:17 | INFO     | app: Form data: {'Age': '30', 'Gender': 'Male', 'family_history': 'No', 'work_interfere': 'Never', 'no_employees': '1-5', 'remote_work': 'No', 'tech_company': 'Yes', 'benefits': 'Yes'}
+2025-10-07 12:08:18 | INFO     | app: Prediction result: No
+2025-10-07 12:08:18 | ERROR    | app: Error handling request: 'proba' is undefined
+Traceback (most recent call last):
+  File "E:\Downloads\mental_health_project\src\app.py", line 27, in index
+    return render_template("result.html", result=pred_label)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\Downloads\mental_health_project\src\templates\result.html", line 22, in top-level template code
+    role="progressbar" style="width: {{ proba*100 }}%;">
+jinja2.exceptions.UndefinedError: 'proba' is undefined
+2025-10-07 12:10:21 | INFO     | app: Received POST request for prediction.
+2025-10-07 12:10:21 | INFO     | app: Form data: {'Age': '30', 'Gender': 'Male', 'family_history': 'No', 'work_interfere': 'Never', 'no_employees': '1-5', 'remote_work': 'No', 'tech_company': 'Yes', 'benefits': 'Yes'}
+2025-10-07 12:10:21 | INFO     | app: Prediction result: No
+2025-10-07 12:10:21 | ERROR    | app: Error handling request: 'proba' is undefined
+Traceback (most recent call last):
+  File "E:\Downloads\mental_health_project\src\app.py", line 27, in index
+    return render_template("result.html", result=pred_label)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\Downloads\mental_health_project\src\templates\result.html", line 23, in top-level template code
+    {{ proba*100|round(1) }}%
+jinja2.exceptions.UndefinedError: 'proba' is undefined
+2025-10-07 12:10:32 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:10:33 | INFO     | app: Starting Flask app on http://127.0.0.1:5000
+2025-10-07 12:10:37 | INFO     | app: Received POST request for prediction.
+2025-10-07 12:10:37 | INFO     | app: Form data: {'Age': '30', 'Gender': 'Male', 'family_history': 'No', 'work_interfere': 'Never', 'no_employees': '1-5', 'remote_work': 'No', 'tech_company': 'Yes', 'benefits': 'Yes'}
+2025-10-07 12:10:38 | INFO     | app: Prediction result: No
+2025-10-07 12:10:38 | ERROR    | app: Error handling request: 'proba' is undefined
+Traceback (most recent call last):
+  File "E:\Downloads\mental_health_project\src\app.py", line 27, in index
+    return render_template("result.html", result=pred_label)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\user\anaconda3\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\anaconda3\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\Downloads\mental_health_project\src\templates\result.html", line 23, in top-level template code
+    {{ proba*100|round(1) }}%
+jinja2.exceptions.UndefinedError: 'proba' is undefined
+2025-10-07 12:11:03 | INFO     | app: Received POST request for prediction.
+2025-10-07 12:11:03 | INFO     | app: Form data: {'Age': '30', 'Gender': 'Male', 'family_history': 'No', 'work_interfere': 'Never', 'no_employees': '1-5', 'remote_work': 'No', 'tech_company': 'Yes', 'benefits': 'Yes'}
+2025-10-07 12:11:03 | INFO     | app: Prediction result: No
+2025-10-07 12:11:08 | INFO     | app: Received POST request for prediction.
+2025-10-07 12:11:08 | INFO     | app: Form data: {'Age': '30', 'Gender': 'Male', 'family_history': 'No', 'work_interfere': 'Never', 'no_employees': '1-5', 'remote_work': 'No', 'tech_company': 'Yes', 'benefits': 'Yes'}
+2025-10-07 12:11:08 | INFO     | app: Prediction result: No

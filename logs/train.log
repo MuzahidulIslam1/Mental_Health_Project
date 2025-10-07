@@ -1,0 +1,25 @@
+2025-10-07 12:00:22 | INFO     | train: === Starting Model Training Pipeline ===
+2025-10-07 12:00:22 | INFO     | train: Loading and cleaning data...
+2025-10-07 12:00:22 | INFO     | train: Splitting data...
+2025-10-07 12:00:22 | INFO     | train: Training models and evaluating performance...
+2025-10-07 12:00:22 | INFO     | train: Logistic Regression | accuracy = 0.806
+2025-10-07 12:00:22 | INFO     | train: Random Forest | accuracy = 0.782
+2025-10-07 12:00:23 | INFO     | train: Gradient Boosting | accuracy = 0.806
+2025-10-07 12:00:23 | INFO     | train: Decision Tree | accuracy = 0.734
+2025-10-07 12:00:23 | INFO     | train: SVM | accuracy = 0.810
+2025-10-07 12:00:23 | INFO     | train: KNN | accuracy = 0.782
+2025-10-07 12:00:23 | INFO     | train: Model saved to models\trained_model.pkl
+2025-10-07 12:00:23 | INFO     | train: === Training Complete ===
+2025-10-07 12:02:25 | INFO     | train: === Starting Model Training Pipeline ===
+2025-10-07 12:02:25 | INFO     | train: Loading and cleaning data...
+2025-10-07 12:02:25 | INFO     | train: Splitting data...
+2025-10-07 12:02:25 | INFO     | train: Training models and evaluating performance...
+2025-10-07 12:02:25 | INFO     | train: Logistic Regression | accuracy = 0.806
+2025-10-07 12:02:25 | INFO     | train: Random Forest | accuracy = 0.782
+2025-10-07 12:02:25 | INFO     | train: Gradient Boosting | accuracy = 0.806
+2025-10-07 12:02:25 | INFO     | train: Decision Tree | accuracy = 0.734
+2025-10-07 12:02:26 | INFO     | train: SVM | accuracy = 0.810
+2025-10-07 12:02:26 | INFO     | train: KNN | accuracy = 0.782
+2025-10-07 12:02:26 | INFO     | train: Best model: SVM (accuracy=0.810)
+2025-10-07 12:02:26 | INFO     | train: Model saved to models\trained_model.pkl
+2025-10-07 12:02:26 | INFO     | train: === Training Complete ===

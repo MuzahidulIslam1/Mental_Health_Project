@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.form-card, .result-card {
+  background: white;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-card:hover, .result-card:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.progress-bar {
+  font-weight: 600;
+  color: #fff;
+  line-height: 30px;
+}

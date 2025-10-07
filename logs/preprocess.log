@@ -1,0 +1,12 @@
+2025-10-07 12:00:22 | INFO     | preprocess: Loading raw data from data\raw\survey.csv
+2025-10-07 12:00:22 | INFO     | preprocess: Loaded data with shape (1259, 27)
+2025-10-07 12:00:22 | INFO     | preprocess: Starting basic cleaning...
+2025-10-07 12:00:22 | INFO     | preprocess: Cleaned data shape: (1259, 27)
+2025-10-07 12:00:22 | INFO     | preprocess: Saving processed data to data/processed/processed_survey.csv
+2025-10-07 12:00:22 | INFO     | preprocess: Processed data saved successfully.
+2025-10-07 12:02:25 | INFO     | preprocess: Loading raw data from data\raw\survey.csv
+2025-10-07 12:02:25 | INFO     | preprocess: Loaded data with shape (1259, 27)
+2025-10-07 12:02:25 | INFO     | preprocess: Starting basic cleaning...
+2025-10-07 12:02:25 | INFO     | preprocess: Cleaned data shape: (1259, 27)
+2025-10-07 12:02:25 | INFO     | preprocess: Saving processed data to data/processed/processed_survey.csv
+2025-10-07 12:02:25 | INFO     | preprocess: Processed data saved successfully.
